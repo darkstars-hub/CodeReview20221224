@@ -1,0 +1,12 @@
+#ifndef LOGGER_LOG_DEFINE_H
+#define LOGGER_LOG_DEFINE_H
+
+
+namespace logger {
+//using = String = std::string:
+//! â¸çs
+constexpr const char* kCRLF = "\n";
+//! èÍèä
+constexpr const char* kLocateZone = "Asia/Tokyo";
+}
+#endif // !LOGGER_LOG_DEFINE_H
